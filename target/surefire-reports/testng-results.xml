@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-25T16:36:15 CDT" name="All Test Suite" finished-at="2023-05-25T16:36:29 CDT" duration-ms="13592">
+    <groups>
+    </groups>
+    <test started-at="2023-05-25T16:36:15 CDT" name="NextOne" finished-at="2023-05-25T16:36:29 CDT" duration-ms="13592">
+      <class name="ErrorValidaitons.NextPage">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:ErrorValidaitons.NextPage@68999068]" started-at="2023-05-25T16:36:15 CDT" name="launchApplication" finished-at="2023-05-25T16:36:22 CDT" duration-ms="6713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkNewItems(java.util.HashMap)[pri:0, instance:ErrorValidaitons.NextPage@68999068]" started-at="2023-05-25T16:36:22 CDT" name="checkNewItems" data-provider="getData" finished-at="2023-05-25T16:36:29 CDT" duration-ms="6785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=1453IstanbulDallas, email=ismetp.27@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewItems -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ErrorValidaitons.NextPage@68999068]" started-at="2023-05-25T16:36:29 CDT" name="tearDown" finished-at="2023-05-25T16:36:29 CDT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ErrorValidaitons.NextPage -->
+    </test> <!-- NextOne -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
