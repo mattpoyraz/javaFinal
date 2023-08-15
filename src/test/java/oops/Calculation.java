@@ -2,7 +2,7 @@ package oops;
 
 public class Calculation {
 
-    int x;
+     int x;
      int y;
 
     //1- method may not take parameters-empty parameters
