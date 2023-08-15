@@ -11,7 +11,7 @@ public class Calculation {
         System.out.println(x+y);
     }
 
-    //2- method takes parameters
+    //2- method takes parameters and neww
 
     void sum(int a, int b){
         x=a;
