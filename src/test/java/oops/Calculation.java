@@ -2,7 +2,7 @@ package oops;
 
 public class Calculation {
 
-    int x;
+     int x;
      int y;
 
     //1- method may not take parameters-empty parameters
@@ -11,7 +11,7 @@ public class Calculation {
         System.out.println(x+y);
     }
 
-    //2- method takes parameters
+    //2- method takes parameters and ...
 
     void sum(int a, int b){
         x=a;
